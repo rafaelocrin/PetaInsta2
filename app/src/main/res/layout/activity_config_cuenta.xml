@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:text="Petagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textView1"
+            />
+
+    <EditText
+        android:id="@+id/etUsuarioConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escribe tu usuario"
+        android:paddingBottom="50dp"/>
+    
+    <Button
+        android:id="@+id/btnGuardarConfig"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:text="Guardar Cuenta"
+        />
+
+</LinearLayout>
